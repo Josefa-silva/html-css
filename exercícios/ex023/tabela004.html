@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      caption {
+        font-size: 1.3em;
+        font-weight: bold;
+        padding: 10px;
+      }
+
+      th,
+      td {
+        border: 1px solid gray;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exercícios de tabelas</h1>
+    <table>
+      <caption>
+        Filmes favoritos.
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col">Grupos</th>
+          <th scope="col">Nomes</th>
+          <th colspan="3" scope="colgroup">Filmes</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <th colspan="4" scope="row">Total</th>
+        <td>1000</td>
+      </tfoot>
+      <tbody>
+        <tr>
+          <th rowspan="3" scope="rowgroup">Mulheres</th>
+          <td>Maria Quitéria Silva</td>
+          <td>Sem palavras para</td>
+          <td>Descrever o quanto</td>
+          <td>Que Eu te amo</td>
+        </tr>
+        <tr>
+          <td>Tia Lourdes</td>
+          <td>Coração enorme</td>
+          <td>Eu te amo</td>
+          <td>De verdade</td>
+        </tr>
+        <tr>
+          <td>Ir. Marcía</td>
+          <td>Mulher de Fé</td>
+          <td>Um ser Incrível</td>
+          <td>Amiga e mãe</td>
+        </tr>
+        <tr>
+          <th rowspan="3" scope="rowgroup">Homens</th>
+          <td>Ednaldo S M</td>
+          <td>Eu te amo</td>
+          <td>E não é pouco</td>
+          <td>Nunca esqueça</td>
+        </tr>
+        <tr>
+          <td>Lucas Abner S M</td>
+          <td>Amor Incondicional</td>
+          <td>Meu Primogênito</td>
+          <td>Meu Orgulho</td>
+        </tr>
+        <tr>
+          <td>Davi S M</td>
+          <td>Amor Incondicional</td>
+          <td>Meu Caçulinha</td>
+          <td>Meu Orgulho</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
