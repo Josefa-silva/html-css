@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício de Tabelas</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      table {
+        width: 500px;
+        border-collapse: collapse;
+      }
+
+      td,
+      th {
+        border: 1px solid black;
+        padding: 9px;
+        text-align: left;
+      }
+
+      caption {
+        font-size: 1.3em;
+        font-weight: bolder;
+        padding: 8px;
+      }
+
+      col.cnome {
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+      <colgroup>
+        <col class="cnome" />
+        <col class="csexo" />
+        <col class="cidade" />
+        <col class="cprof" />
+      </colgroup>
+      <caption>
+        Cadstro
+      </caption>
+      <tr>
+        <th scope="col">Nomes</th>
+        <th scope="col">Sexo</th>
+        <th scope="col">Idade</th>
+        <th scope="col">Profissão</th>
+      </tr>
+      <tr>
+        <td>Josefa Silva</td>
+        <td>F</td>
+        <td>37</td>
+        <td>Programadora</td>
+      </tr>
+      <tr>
+        <td>Ednaldo</td>
+        <td>M</td>
+        <td>41</td>
+        <td>Eletricista</td>
+      </tr>
+      <tr>
+        <td>Lucas</td>
+        <td>M</td>
+        <td>16</td>
+        <td>Data scientist</td>
+      </tr>
+      <tr>
+        <td>Davi</td>
+        <td>M</td>
+        <td>14</td>
+        <td>Des. Jogos</td>
+      </tr>
+      <tr>
+        <td>Quitéria</td>
+        <td>F</td>
+        <td>55</td>
+        <td>Melhor mãe</td>
+      </tr>
+      <tr>
+        <td>Jna</td>
+        <td>F</td>
+        <td>34</td>
+        <td>Ir. Protetora</td>
+      </tr>
+    </table>
+  </body>
+</html>
